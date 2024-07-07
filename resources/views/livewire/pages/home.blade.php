@@ -18,13 +18,20 @@
                         </a>
                     </div>
                 </div>
-                <div class="mt-16 xl:mt-0 xl:col-span-2">
+                <div class="mt-16 xl:mt-0 xl:col-span-2 space-y-5">
+                    <div class="bg-white shadow sm:rounded-lg p-6 rotate-1 mb-10 scale-[102%]">
+                        <h3 class="text-lg leading-6 font-medium text-gray-900">Get Started!</h3>
+                        <p class="mt-6 text-lg leading-8 text-gray-600">
+                            {!! $this->highlightCode('composer require matildevoldsen/wire-comments', 'bash') !!}
+                        </p>
+                    </div>
                     <div class="bg-white shadow sm:rounded-lg p-6">
                         <h3 class="text-lg leading-6 font-medium text-gray-900">Try it out</h3>
+
                         <div class="mt-5">
                             <!-- Include the WireComments component -->
                             <livewire:comments allow-guests :emojis="['👍', '👎', '❤️', '😂', '😯', '😢', '😡']"
-                                               :model="App\Models\DocPage::find(1)"/>
+                                               :model="App\Models\DocPage::find(2)"/>
                         </div>
                     </div>
                 </div>
