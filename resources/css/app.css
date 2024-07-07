@@ -5,3 +5,40 @@
 [x-cloak] {
     display: none;
 }
+
+@layer components {
+    .prose {
+        @apply max-w-none prose-lg;
+    }
+    .prose h1 {
+        @apply text-3xl;
+    }
+    .prose h2 {
+        @apply text-2xl;
+    }
+    .prose h3 {
+        @apply text-xl;
+    }
+    .prose pre {
+        @apply bg-gray-100 p-4 rounded-lg;
+    }
+    .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+        content: "";
+    }
+    .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+        content: "";
+    }
+    .prose img {
+        @apply max-w-full h-auto;
+    }
+    .prose table {
+        @apply w-full;
+    }
+    .prose th, .prose td {
+        @apply border px-4 py-2;
+    }
+
+    .prose pre {
+        @apply bg-gray-100 p-4 rounded-lg overflow-auto;
+    }
+}
