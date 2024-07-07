@@ -62,8 +62,8 @@
                 <div>
                     <h3 class="text-xl font-semibold">Contact</h3>
                     <ul class="mt-4 space-y-2">
-                        <li><a href="mailto:support@wirecomments.com" class="text-gray-400 hover:text-white">Email: support@wirecomments.com</a></li>
-                        <li><a href="https://twitter.com/wirecomments" class="text-gray-400 hover:text-white">Twitter: @wirecomments</a></li>
+                        <li><a href="mailto:matilde.enevoldsen19@gmail.com" class="text-gray-400 hover:text-white">Email: matilde.enevoldsen19@gmail.com</a></li>
+                        <li><a href="https://twitter.com/tillythecoder" class="text-gray-400 hover:text-white">Twitter: @tillythecoder</a></li>
                     </ul>
                 </div>
             </div>
