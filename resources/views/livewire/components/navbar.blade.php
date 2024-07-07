@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="flex items-center space-x-4">
-                <a href="/docs" class="text-gray-500 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium">Docs</a>
+                <a wire:navigate href="/docs" class="text-gray-500 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium">Docs</a>
                 <a href="https://github.com/Matildevoldsen/wire-comments" class="bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-2 rounded-md text-sm font-medium">
                     Sponsor Me
                 </a>

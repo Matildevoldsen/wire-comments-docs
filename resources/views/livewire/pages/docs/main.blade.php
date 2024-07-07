@@ -9,9 +9,7 @@
                     </div>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <a href="/" class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                    <a href="/docs"
-                       class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Docs</a>
+                    <a wire:navigate href="/" class="text-white hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">Home</a>
                     <a href="https://github.com/Matildevoldsen/wire-comments"
                        class="bg-white hover:bg-gray-100 text-indigo-600 px-3 py-2 rounded-md text-sm font-medium">
                         Sponsor
