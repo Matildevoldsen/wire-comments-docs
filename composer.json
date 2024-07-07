@@ -14,7 +14,7 @@
         "livewire/livewire": "^3.0",
         "matildevoldsen/wire-comments": "^0.3.6",
         "spatie/laravel-markdown": "^2.5",
-        "spatie/shiki-php": "^1.3.0"
+        "spatie/shiki-php": "^2.0.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
