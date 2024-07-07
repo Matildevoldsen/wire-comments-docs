@@ -31,7 +31,7 @@
                         <div class="mt-5">
                             <!-- Include the WireComments component -->
                             <livewire:comments allow-guests :emojis="['👍', '👎', '❤️', '😂', '😯', '😢', '😡']"
-                                               :model="App\Models\DocPage::find(2)"/>
+                                               :model="App\Models\DocPage::find(1)"/>
                         </div>
                     </div>
                 </div>
