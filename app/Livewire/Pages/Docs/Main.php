@@ -13,7 +13,7 @@ class Main extends Component
 
     public function content()
     {
-        $markdownContent = DocPage::find(2)->content;
+        $markdownContent = DocPage::where('title', 'main')->first()->content;
 
         return app(\Spatie\LaravelMarkdown\MarkdownRenderer::class)
             ->highlightTheme('github-dark')
