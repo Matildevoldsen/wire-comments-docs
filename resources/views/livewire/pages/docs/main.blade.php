@@ -19,7 +19,7 @@
         </div>
     </nav>
     <div class="bg-white dark:bg-gray-900">
-        <div class="max-w-7xl mx-auto flex">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row">
             <livewire:components.sidebar />
             <div class="flex-1 py-8 px-6 prose prose-lg max-w-7xl dark:text-gray-100">
                 {!! $this->content() !!}
