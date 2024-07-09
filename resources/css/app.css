@@ -28,6 +28,9 @@
     .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
         content: "";
     }
+    .prose code {
+        @apply dark:text-gray-300;
+    }
     .prose img {
         @apply max-w-full h-auto;
     }
@@ -45,4 +48,6 @@
 
 pre {
     @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg;
+    max-width: 100%;
+    width: 100%;
 }
