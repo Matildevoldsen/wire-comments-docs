@@ -19,7 +19,8 @@
                 <h3 class="text-xl font-semibold">Contact</h3>
                 <ul class="mt-4 space-y-2">
                     <li><a href="mailto:matilde.enevoldsen19@gmail.com" class="text-gray-400 hover:text-white">Email: matilde.enevoldsen19@gmail.com</a></li>
-                    <li><a href="https://twitter.com/tillythecoder" class="text-gray-400 hover:text-white">Twitter: @tillythecoder</a></li>
+                    <li><a href="https://twitter.com/tillythecoder" class="text-gray-400 hover:text-white">Twitter: @TillyTheCoder</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCxHogrEcmgWU1DyhO8haGlQ" class="text-gray-400 hover:text-white">YouTube: @TillyTheCoder</a></li>
                 </ul>
             </div>
         </div>
