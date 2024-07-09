@@ -37,7 +37,7 @@
         </div>
 
         @stack('modals')
-
+        @livewireScriptConfig
         @livewireScripts
     </body>
 </html>
