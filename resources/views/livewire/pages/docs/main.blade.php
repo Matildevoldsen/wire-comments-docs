@@ -5,7 +5,7 @@
             <div class="flex justify-between h-16">
                 <div class="flex">
                     <div class="shrink-0 flex items-center">
-                        <h1 class="text-2xl font-bold text-white">WireComments Docs</h1>
+                        <h1 class="text-2xl font-bold text-white">Wire Comments Docs</h1>
                     </div>
                 </div>
                 <div class="flex items-center space-x-4">

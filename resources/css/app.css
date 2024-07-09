@@ -47,7 +47,7 @@
 }
 
 pre {
-    @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg;
+    @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-lg overflow-auto;
     max-width: 100%;
     width: 100%;
 }
