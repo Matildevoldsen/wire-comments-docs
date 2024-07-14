@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9d9c1c2476bbd402b1014decdea8e18",
+    "content-hash": "31e116e259a5ffbb530ba889d5334235",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -3743,16 +3743,16 @@
         },
         {
             "name": "matildevoldsen/wire-comments",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Matildevoldsen/wire-comments.git",
-                "reference": "d00a9c68d2340a26a4c3efb21651c10e3eb532b7"
+                "reference": "ff4de37acada91f021484f80a4401305d70e4714"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Matildevoldsen/wire-comments/zipball/d00a9c68d2340a26a4c3efb21651c10e3eb532b7",
-                "reference": "d00a9c68d2340a26a4c3efb21651c10e3eb532b7",
+                "url": "https://api.github.com/repos/Matildevoldsen/wire-comments/zipball/ff4de37acada91f021484f80a4401305d70e4714",
+                "reference": "ff4de37acada91f021484f80a4401305d70e4714",
                 "shasum": ""
             },
             "require": {
@@ -3814,7 +3814,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Matildevoldsen/wire-comments/issues",
-                "source": "https://github.com/Matildevoldsen/wire-comments/tree/v0.4.1"
+                "source": "https://github.com/Matildevoldsen/wire-comments/tree/v0.5.0"
             },
             "funding": [
                 {
@@ -3822,7 +3822,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-07-14T09:52:05+00:00"
+            "time": "2024-07-14T10:21:14+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
